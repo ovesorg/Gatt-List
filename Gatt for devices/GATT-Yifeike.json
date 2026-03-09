@@ -1,0 +1,66 @@
+{
+  "att": {
+    "opid": "OEM Device ID. Factory set.",
+    "ppid": "PAYG Device ID. Factory set. Field override options.",
+    "flid": "Fleet ID. Factory set. Field override options.",
+    "ccid": "Integrate circuit card identity",
+    "frmv": "Firmware Version. Factory set."
+  },
+  "cmd": {
+    "pubk": "Public Key / Last Code",
+    "open": "open:1:Device remote startup",
+    "stdb": "stdb:1:Device is in standby mode.",
+    "napn": "GPRS Carrier APN Name",
+    "clos": "clos:1:Device power off",
+    "read": "Last read request of ANY GATT <data> = [opid|...|]",
+    "rptm": "Set notification request mode = [0|1|2|3|4], 0: Auto-Periodic | 1 = Request-Response | 2 = Change-Notification",
+    "raml": "raml list set",
+    "cleg": "cleg:1:Device clears the host's power generation output."
+  },
+  "sts": {
+    "sstc": "System Status Code",
+    "crtm": "created at time",
+    "udtm": "update at time",
+    "time": "Device internal timer readout at last communication",
+    "plat": "Device GPS Latitude",
+    "plon": "Device GPS Longitude",
+    "gpss": "GPS Signal Strength in db",
+    "gpfc": "GPRS Connect Failure Counts",
+    "rcrd": "Remaining Credit Days",
+    "trhd": "Total Running History Days",
+    "tpgd": "PAYG Running Days",
+    "pgst": "PAYG State = PAYG | FREE",
+    "tkre": "Last token entry response = NEW | REPEAT | ERROR",
+    "ocst": "Device Output State = ENABLED | DISABLED"
+  },
+  "dta": {
+    "acfr": "AC Output Frequency -Unit Hz",
+    "pvcg": "Photovoltaic (PV) Input current- Unit A",
+    "pviv": "Photovoltaic (PV) Input Voltage -Unit V",
+    "acop": "Photovoltaic (PV) output Voltage",
+    "pvgd": "Daily Cumulative PV Power Generation-Unit Wh",
+    "pckv": "Pack Voltage mV",
+    "rsoc": "Relative State of Charge",
+    "pvip": "Energy A Percentage Of The Load",
+    "aciv": "AC Input Voltage -Unit V",
+    "acif": "AC Input Frequency -Unit Hz",
+    "acov": "AC Output Voltage -Unit V",
+    "slon": "Satellite Longitude in DD (decimal degrees)",
+    "slat": "Satellite Latitude in DD (decimal degrees)",
+    "salt": "Satellite Altitude in Metres",
+    "sstm": "Satellite-Synchronized Network Clock time in ISO 8601",
+    "sgps": "Satellite GPS Strength",
+    "sspe": "Satellite Speed in kM/h",
+    "pckc": "Pack Current in A",
+    "pmcs": "PACK MOSFET control status",
+    "cmos": "Charging MOS Status, 0 for off, 1 for on",
+    "dmos": "Discharging MOS Status, 0 for off, 1 for on"
+  },
+  "dia": {
+    "cv01": "Cell 01 Voltage mV",
+    "cv02": "Cell 02 Voltage mV",
+    "cv03": "Cell 03 Voltage mV",
+    "cv04": "Cell 04 Voltage mV",
+    "cv05": "Cell 05 Voltage mV"
+  }
+}
