@@ -1,0 +1,78 @@
+{
+	"att":{
+			"opid": "OEM Device ID. Factory set.",
+			"ppid": "PAYG Device ID. Factory set. Field override options.",
+			"flid": "Fleet ID. Factory set. Field override options.",
+			"ccid": "iccid ",
+			"frmv": "Firmware Version. Factory set."
+		},
+	"cmd":{ 
+			"pubk": "Public Key / Last Code",
+			"gstw": "GPRS Sleep Time Window in mins",
+			"gctw": "GPRS Connect Time Window in mins",
+			"napn": "GPRS Carrier APN Name",
+			"swch": "Generic device switch swch = ON | OFF ",
+			"read": "Last read request of ANY GATT <data> = [opid|...|]",
+			"rptm": "Set notification request mode = [0|1|2|3|4], 0: Auto-Periodic | 1 = Request-Response | 2 = Change-Notification",
+			"raml": "raml list set",
+			"hbfq": "Heart Beat Interval Minutes"
+		},
+	"sts": { 
+             "runm": "Running mode,1: Self-use,2: Peak-cut,3: Off-grid,4: On-grid,5: Shutdown,6: Diesel,7: Dispatch", 
+			 "wste": "Equipment operating status: 0 - Off, 1 - Start, 2 - Running, 3 - Fault, 4 - Alarm, 5 - Charging Prohibited, 6 - Discharging Prohibited",
+			 "sair": "Air conditioner is on: 0 - Off, 1 - On",
+			 "pvmp": "Monthly output electricity of the PV system",
+			 "pvdp": "Daily output electricity of the PV system",
+			 "pvop": "PV output power",
+			 "pvst":"PV connection status,0: No input,1: PV1 only,2: PV2 only,3: Dual-MPPT,4: PV1&2 parallel",
+			 "gpss": "GPS Signal Strength in db",
+			 "rcrd": "Remaining Credit Days",
+			 "trhd": "Total Running History Days",
+			 "tpgd": "PAYG Running Days",
+			 "pgst": "PAYG State = PAYG | FREE",
+			 "tkre": "Last token entry response = NEW | REPEAT | ERROR",
+			 "ocst": "Device Output State = ENABLED | DISABLED"
+		},
+	"dta": {
+			"avvl": "Average voltage, unit V",
+			"avtp": "Average temperature, unit: °C",
+			"tcul": "Total current unit: A",
+			"tvol": "Total voltage unit: V",
+			"rsoc": "Relative State of Charge,Percentage of fccp",
+		 	"rsoh": "State of Health",
+			"tair": "Refrigeration temperature, unit: °C",
+			"dair": "Air conditioning humidity, unit %RH",
+			"hair": "Environmental temperature, unit: °C",
+			"mdpw": "Discharge power, unit: W",
+			"pvtp": "Total output power of PV system",
+			"pvyp": "Annual output electricity of PV system",
+			"slon": "Satellite Longitude in DD (decimal degrees)",
+			"slat": "Satellite Latitude in DD (decimal degrees)",
+			"salt": "Satellite Altitude in Metres",
+			"sstm": "Satellite-Synchronized Network Clock time in ISO 8601",
+			"sgps": "Satellite GPS Strength",
+			"sspe": "Satellite Speed in kM/h",
+			"ccst": "Charge/discharge status",
+			"mccc": "Maximum charging current, unit A",
+			"mdsc": "Maximum discharge current, unit A",
+			"mcpw": "Charging power, unit: W"
+	},
+	"dia":{
+            "dvl1": "L1 phase voltage in the grid,unit:V",
+			"dvl2": "L2 phase voltage in the grid,unit:V",
+			"dvl3": "L3 phase voltage in the grid,unit:V",
+			"dcl1": "L1 phase current in the grid,unit:A",
+			"dcl2": "L2 phase current in the grid,unit:A",
+			"dcl3": "L3 phase current in the grid,unit:A",
+			"dmvl": "Maximum single cell voltage, unit: V",
+			"dmnu": "Highest individual voltage number",
+			"dlvl": "Minimum single-cell voltage unit: V",
+			"dlnu": "Minimum individual voltage number",
+			"dmtp": "Maximum single cell temperature unit: °C",
+			"dtnu": "The serial number of the single-cell battery with the highest temperature",
+			"dltp": "Minimum single cell temperature",
+			"dtlu": "The serial number of the battery cell with the lowest temperature"
+	}
+}
+		
+	
